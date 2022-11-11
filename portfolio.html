@@ -12,156 +12,198 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html" lang="en"><span>Web</span>Studio</a>
-      <nav>
+    <header class="header">
+      <a href="./index.html" lang="en" class="header-logo"
+        ><span class="logo-text">Web</span>Studio</a
+      >
+      <nav class="header-nav">
         <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+          <li><a href="./index.html" class="header-link link">Студія</a></li>
+          <li>
+            <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+          </li>
+          <li><a href="" class="header-link link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contacts link">
+        <li class="header-items">
+          <a href="mailto:info@devstudio.com" class="header-contact link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-items">
+          <a href="tel:+380961111111" class="header-contact link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
+
     <main>
-      <section>
-        <h1>Наші роботи</h1>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="works">
+        <h1 class="visually-hidden title">Наші роботи</h1>
+        <ul class="works-buttons list">
+          <li class="works-button">
+            <button type="button" class="works-btn">Усі</button>
+          </li>
+          <li class="works-button">
+            <button type="button" class="works-btn">Веб-сайти</button>
+          </li>
+          <li class="works-button">
+            <button type="button" class="works-btn">Додатки</button>
+          </li>
+          <li class="works-button">
+            <button type="button" class="works-btn">Дизайн</button>
+          </li>
+          <li class="works-button">
+            <button type="button" class="works-btn">Маркетинг</button>
+          </li>
         </ul>
-        <ul>
-          <li>
-            <a href="">
+        <ul class="works-list list">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_1.jpg"
                 alt="Приклад роботи веб-сайту"
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="works-title">Технокряк</h2>
+              <p class="works-caption">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_2.jpg"
                 alt="Приклад роботи дизайну"
                 width="370"
                 height="294"
               />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
+              <p class="works-caption">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_3.jpg"
                 alt="Приклад роботи додатку"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Додаток</p>
+              <h2 class="works-title">Ресторан Seafood</h2>
+              <p class="works-caption">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_4.jpg"
                 alt="Приклад роботи маркетингу"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Проєкт Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="works-title">Проєкт Prime</h2>
+              <p class="works-caption">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_5.jpg"
                 alt="Приклад роботи додатку"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Проєкт Boxes</h2>
-              <p>Додаток</p>
+              <h2 class="works-title">Проєкт Boxes</h2>
+              <p class="works-caption">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_6.jpg"
                 alt="Приклад роботи веб-сайту"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="works-title">Inspiration has no Borders</h2>
+              <p class="works-caption">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_7.jpg"
                 alt="Приклад роботи дизайну"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Видання Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="works-title">Видання Limited Edition</h2>
+              <p class="works-caption">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_8.jpg"
                 alt="Приклад роботи маркетингу"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Проєкт LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="works-title">Проєкт LAB</h2>
+              <p class="works-caption">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-items">
+            <a href="" class="works-links link">
               <img
                 src="./images/img_9.jpg"
                 alt="Приклад роботи додатку"
                 width="370"
                 height="294"
+                class="works-img"
               />
-              <h2>Growing Business</h2>
-              <p>Додаток</p>
+              <h2 class="works-title">Growing Business</h2>
+              <p class="works-caption">Додаток</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html" lang="en"><span>Web</span>Studio</a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a href="./index.html" lang="en"
+        ><span class="logo-text">Web</span>Studio</a
+      >
+      <address class="footer-address">
+        <ul class="footer-list list">
+          <li class="footer-items">
             <a
               href="https://goo.gl/maps/g8eGBgNmYN1xbA3Z9"
               target="_blank"
               rel="noopener noreferrer noopener"
-              >м. Київ, пр-т Лесі Українки, 26</a
+              class="footer-links link footer-address"
+            >
+              м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-items">
+            <a href="mailto:info@devstudio.com" class="footer-links link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-items">
+            <a href="tel:+380961111111" class="footer-links link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
