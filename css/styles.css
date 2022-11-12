@@ -16,7 +16,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
-  background-color: --light-background-color;
+  background-color: var(--light-background-color);
 }
 
 .link {
@@ -38,7 +38,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
 
@@ -59,7 +59,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -71,7 +71,7 @@ body {
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--first-link-color);
 }
@@ -84,7 +84,7 @@ body {
 .header-contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--second-link-color);
 }
@@ -102,7 +102,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
   background-color: var(--accent-color);
@@ -128,7 +128,7 @@ body {
 /* -----------BENEFITS----------- */
 .benefits-subtitle {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-heading-color);
@@ -136,7 +136,7 @@ body {
 
 .benefits-text {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
@@ -144,7 +144,7 @@ body {
 
 .products-title {
   font-size: 36px;
-  line-height: 1.16;
+  line-height: calc(42 / 36);
   letter-spacing: 0.03em;
   color: var(--primary-heading-color);
 }
@@ -161,7 +161,7 @@ body {
 .team-caption {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-heading-color);
@@ -169,7 +169,7 @@ body {
 
 .team-position {
   font-size: 16px;
-  line-height: 1.18;
+  line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -186,7 +186,7 @@ body {
 .footer-links {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -205,7 +205,7 @@ body {
 .works-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   color: #212121;
   background-color: var(btn-background-color);
@@ -221,13 +221,13 @@ body {
 
 .works-title {
   font-size: 18px;
-  line-height: 2;
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--primary-heading-color);
 }
 .works-caption {
   font-size: 16px;
-  line-height: 1.87;
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
