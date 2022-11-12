@@ -9,23 +9,31 @@
       content="Портфоліо робіт студії веб-розробки WebStudio."
     />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" lang="en" class="header-logo"
+      <a href="./index.html" lang="en" class="header-logo link"
         ><span class="logo-text">Web</span>Studio</a
       >
       <nav class="header-nav">
-        <ul>
+        <ul class="header-list list">
           <li><a href="./index.html" class="header-link link">Студія</a></li>
           <li>
-            <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+            <a href="./portfolio.html" class="header-link link active"
+              >Портфоліо</a
+            >
           </li>
           <li><a href="" class="header-link link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-contacts link">
+      <ul class="header-contacts list link">
         <li class="header-items">
           <a href="mailto:info@devstudio.com" class="header-contact link"
             >info@devstudio.com</a
@@ -41,10 +49,10 @@
 
     <main>
       <section class="works">
-        <h1 class="visually-hidden title">Наші роботи</h1>
+        <h1 class="visually-hidden">Наші роботи</h1>
         <ul class="works-buttons list">
           <li class="works-button">
-            <button type="button" class="works-btn">Усі</button>
+            <button type="button" class="works-btn current">Усі</button>
           </li>
           <li class="works-button">
             <button type="button" class="works-btn">Веб-сайти</button>
@@ -179,7 +187,7 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" lang="en"
+      <a href="./index.html" lang="en" class="footer-logo logo link"
         ><span class="logo-text">Web</span>Studio</a
       >
       <address class="footer-address">
