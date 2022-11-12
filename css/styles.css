@@ -3,6 +3,7 @@
   --secondary-heading-color: #ffffff;
   --first-link-color: #212121;
   --second-link-color: #757575;
+  --third-link-color: #ffffff;
   --main-text-color: #757575;
   --btn-text-color: #ffffff;
   --btn-background-color: #f5f4fa;
@@ -197,7 +198,7 @@ body {
 }
 
 .footer-address {
-  color: #ffffff;
+  color: var(--third-link-color);
 }
 
 /* -----------WORKS----------- */
