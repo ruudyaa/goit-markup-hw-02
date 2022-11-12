@@ -45,9 +45,6 @@ body {
   line-height: calc(31 / 26);
 }
 
-.btn {
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
