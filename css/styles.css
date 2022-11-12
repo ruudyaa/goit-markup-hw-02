@@ -6,15 +6,17 @@
   --main-text-color: #757575;
   --btn-text-color: #ffffff;
   --btn-background-color: #f5f4fa;
+  --btn-background-hover: #188ce8;
   --accent-color: #2196f3;
   --dark-background-color: #2f303a;
   --light-background-color: #ffffff;
+  --cinereous-background-color: #f5f4fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  font-weight: 400;
+  color: var(--main-text-color);
+  background-color: --light-background-color;
 }
 
 .link {
@@ -116,11 +118,12 @@ body {
   letter-spacing: 0.06em;
   color: var(--btn-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--btn-background-hover);
 }
 
 /* -----------BENEFITS----------- */
@@ -137,7 +140,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 
 /* -----------PRODUCTS----------- */
@@ -152,7 +154,7 @@ body {
 
 /* -----------TEAM----------- */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(----cinereous-background-color);
 }
 
 .team-items {
@@ -173,7 +175,6 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--main-text-color);
 }
 
 /* -----------FOOTER----------- */
@@ -211,6 +212,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: var(btn-background-color);
+  cursor: pointer;
 }
 
 .works-btn:hover,
